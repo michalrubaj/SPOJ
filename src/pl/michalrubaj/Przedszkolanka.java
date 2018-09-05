@@ -27,8 +27,7 @@ public class Przedszkolanka {
     }
 
 
-    private static int NWD(int firstNumber, int secondNumber) {
-
+    private static int NWD(int firstNumber, int secondNumber) { // Algorytm Euklidesa
         while (firstNumber!=secondNumber) {
             if(firstNumber>secondNumber) {
                 firstNumber-=secondNumber;
