@@ -8,13 +8,13 @@ public class RNO_DOD {
     public static void main(String[] args) throws IOException {
 
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
-        int howManyTimes = Integer.parseInt(input.readLine());
+        int howManyTimes = Integer.parseInt(input.readLine()); //  // write how many test cases you want to print out
         int[] output = new int[howManyTimes];
 
         for (int i = 0; i < howManyTimes; i++) {
-            int howManyNumbers = Integer.parseInt(input.readLine());
+            int howManyNumbers = Integer.parseInt(input.readLine()); // write how many numbers you want to add
             String[] numberArray;
-            String numbers = input.readLine();
+            String numbers = input.readLine(); // write the numbers
             numberArray = numbers.split(" ");
             int sum = 0;
             int[] numberInt = new int[howManyNumbers];
